@@ -1,0 +1,60 @@
+/* Reset default browser styles for the body */
+body {
+    margin: 0;
+    padding: 0;
+    background: #e4e4e4;
+    color: #110C52;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Styling for the popup box */
+.fakePay {
+    padding: 5%;
+    width: 85%;
+    max-width: 600px;
+    background: #ffffff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px #110C52;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+}
+
+/* Styling for the heading within the popup */
+.fakePay h1 {
+    font-size: 36px;
+    margin: 0 0 5% 0;
+}
+
+.fakePay p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #110c5281;
+}
+
+/* Styling for the button */
+#fakePay-submit {
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#fakePay-submit:hover {
+    background-color: hsl(0, 0%, 87%);
+}
+
+#fakePay-submit:active {
+    background-color: #ebebeb;
+    border: 2px solid #161616;
+}
