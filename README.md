@@ -6,4 +6,4 @@ Fake payment gate for the website of project Vrijtap meant to run on the Raspber
 
 The documentation can be found at:
 
-- Installation: **[Raspberry Pi Installation](https://vrijtap.github.io/documentation/website/installation/#fetching-the-dev-payment-gate)**
+- Installation: **[Dev Payment Gate Installation](https://vrijtap.github.io/documentation/website/installation/#fetching-the-dev-payment-gate)**
